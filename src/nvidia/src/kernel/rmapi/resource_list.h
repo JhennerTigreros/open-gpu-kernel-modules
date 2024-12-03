@@ -1669,7 +1669,7 @@ RS_ENTRY(
     /* Flags                  */ RS_FLAGS_ALLOC_NON_PRIVILEGED | RS_FLAGS_ACQUIRE_GPUS_LOCK,
     /* Required Access Rights */ RS_ACCESS_NONE
 )
-#if RMCFG_CLASS_NV_CE_UTILS && (defined(DEBUG) || defined(DEVELOP))
+#if 0
 RS_ENTRY(
     /* External Class         */ NV_CE_UTILS,
     /* Internal Class         */ CeUtilsApi,
